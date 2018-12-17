@@ -1,0 +1,4 @@
+api:
+  baseUrl: https://api.jikan.moe
+  version: v3
+  userAgent: Jikan Dart/0.0.1

@@ -1,15 +1,17 @@
 name: jikan
 description: Dart wrapper for the Jikan API.
 version: 0.0.1
-author: Sandro Marques
-homepage:
+author: Sandro Marques <sandro123iv@gmail.com>
+homepage: https://github.com/SandroHc/jikan-dart
 
 environment:
-  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  sdk: ">=2.0.0-dev.58.0 <3.0.0"
 
 dependencies:
+  meta: ^1.1.6
   http: ^0.12.0
   json_annotation: ^2.0.0
+  safe_config: ^2.0.1
 
 dev_dependencies:
   test: ^1.3.3

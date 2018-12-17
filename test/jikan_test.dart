@@ -1,7 +1,6 @@
 import 'package:test/test.dart';
 
 import 'package:jikan/jikan.dart';
-import 'package:jikan/model.dart';
 
 void main() {
   final instance = Jikan();
@@ -11,5 +10,10 @@ void main() {
     Anime anime = await instance.getAnime(id: ANIME_ID);
     expect(anime, isNotNull);
     expect(anime.malId, isNotNull);
+  });
+
+  test('Schedule request', () async {
+    Schedule schedule = await instance.getSchedule();
+    expect(schedule, isNotNull);
   });
 }

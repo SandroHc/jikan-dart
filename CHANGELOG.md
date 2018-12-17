@@ -1,3 +1,4 @@
-## [0.0.1] - TODO: Add release date.
+## 0.0.1
 
-* TODO: Describe initial release.
+* Initial proof-of-concept release.
+    * Supports requests to [Anime](https://jikan.docs.apiary.io/#reference/0/anime) and [Schedule](https://jikan.docs.apiary.io/#reference/0/schedule).
